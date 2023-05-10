@@ -1,0 +1,122 @@
+/* Add your custom styles here */
+body {
+    /* font styles for the entire page */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+
+    /* background color for the entire page */
+    background-color: #f9f9f9;
+
+    /* margin and padding of the page */
+    margin: 0;
+    padding: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font styles for all headings */
+    font-weight: bold;
+    color: #444;
+
+    /* margin of all headings */
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.section {
+    /* margin and padding to all sections */
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* optional: treating larger sections with a page style to create visual separation */
+.section--topic {
+    background-color: white;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+p {
+    /* margin to all paragraphs */
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #3f51b5;
+}
+
+/* Add hover effects to the links in the list */
+a:hover {
+    text-decoration: underline;
+    color: #303f9f;
+}
+
+/* caution: forcing all code examples to wrap and not horizontal scroll */
+pre {
+    white-space: pre-wrap;
+}
+
+.user-story {
+    /* margin and padding to the user story section */
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.user-story p {
+    /* add some margin to the user story components */
+    margin: 0.5rem 0;
+}
+
+.user-story span {
+    /* add some styling to the user story components */
+    font-weight: bold;
+    color: #444;
+}
+
+.reminder {
+    background-color: #f44336;
+    color: white;
+    padding: 0.2em 0.4em;
+    display: inline-block;
+}
+
+.scrollToToc {
+    display: inline-block;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #007bff;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.scrollToToc:hover {
+    color: #3398ff;
+    text-decoration: underline;
+}
+
+ol {
+    margin-top: 0;
+}
+
+.hljs {
+    white-space: pre;
+    overflow-x: auto;
+}
+
+/* !!! IMPORTANT !!! */
+/* Add styles for accessibility */
+/* Add aria-labels to all interactive elements you create */
+/* Use semantic HTML tags to organize where applicable*/
+/* Add alt text to all images */
