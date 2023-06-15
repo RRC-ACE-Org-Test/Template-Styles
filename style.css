@@ -126,6 +126,10 @@ ol {
     margin: 20px 0;
 }
 
+.fileName {
+    color: green;
+}
+
 /* !!! IMPORTANT !!! */
 /* Add styles for accessibility */
 /* Add aria-labels to all interactive elements you create */
