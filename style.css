@@ -115,6 +115,17 @@ ol {
     overflow-x: auto;
 }
 
+.callout {
+    list-style: none;
+    padding: 0;
+}
+
+.callout li {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px 0;
+}
+
 /* !!! IMPORTANT !!! */
 /* Add styles for accessibility */
 /* Add aria-labels to all interactive elements you create */
